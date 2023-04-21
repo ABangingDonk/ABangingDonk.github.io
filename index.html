@@ -138,61 +138,63 @@ input[type=checkbox]:checked + .checkable-div{
 
 </style>
 
-<div class="form" action="https://formspree.io/f/mqkowqyk" method="POST">
-    <div class="title">Ordering form</div>
-    <div class="subtitle">
-        <p>
-            The board alone costs £20. This includes everything except the Teensy.
-        </p>
-        <p>
-            Enter your information here and I'll calculate shipping and get back to you.
-            If you want me to provide a Teensy module for you then that will come pre-programmed and ready to go.
-        </p>
-    </div>
-    <div class="input-container">
-      <input id="name_box" class="input" type="text" placeholder=" " />
-      <div class="cut"></div>
-      <label for="name_box" class="placeholder">Name</label>
-    </div>
-    <div class="input-container">
-      <input id="address_1_box" class="input" type="text" placeholder=" " />
-      <div class="cut"></div>
-      <label for="address_1_box" class="placeholder">1st line of address</label>
-    </div>
-    <div class="input-container">
-      <input id="address_2_box" class="input" type="text" placeholder=" " />
-      <div class="cut"></div>
-      <label for="address_2_box" class="placeholder">2nd line of address</label>
-    </div>
-    <div class="input-container">
-      <input id="city_box" class="input" type="text" placeholder=" " />
-      <div class="cut"></div>
-      <label for="city_box" class="placeholder">Town or city</label>
-    </div>
-    <div class="input-container">
-      <input id="country_box" class="input" type="text" placeholder=" " />
-      <div class="cut"></div>
-      <label for="country_box" class="placeholder">Country</label>
-    </div>
-    <div class="input-container">
-      <input id="postcode_box" class="input" type="text" placeholder=" " />
-      <div class="cut"></div>
-      <label for="postcode_box" class="placeholder">Zip or postal code</label>
-    </div>
-    <div class="input-container">
-      <input id="phone_box" class="input" type="tel" placeholder=" " />
-      <div class="cut"></div>
-      <label for="phone_box" class="placeholder">Phone number (including area code)</label>
-    </div>
-    <div class="input-container">
-      <input id="email_box" class="input" type="email" placeholder=" " />
-      <div class="cut"></div>
-      <label for="email_box" class="placeholder">Email</label>
-    </div>
-    <div class="checkable-container">
-      <input id="teensy_check" type="checkbox" placeholder=" " />
-      <label class="checkable-div" for="teensy_check">Also quote for a Teensy 4.x</label>
-    </div>
+<form action="https://formspree.io/f/mqkowqyk" method="POST">
+  <div class="form">
+      <div class="title">Ordering form</div>
+      <div class="subtitle">
+          <p>
+              The board alone costs £20. This includes everything except the Teensy.
+          </p>
+          <p>
+              Enter your information here and I'll calculate shipping and get back to you.
+              If you want me to provide a Teensy module for you then that will come pre-programmed and ready to go.
+          </p>
+      </div>
+      <div class="input-container">
+        <input id="name_box" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="name_box" class="placeholder">Name</label>
+      </div>
+      <div class="input-container">
+        <input id="address_1_box" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="address_1_box" class="placeholder">1st line of address</label>
+      </div>
+      <div class="input-container">
+        <input id="address_2_box" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="address_2_box" class="placeholder">2nd line of address</label>
+      </div>
+      <div class="input-container">
+        <input id="city_box" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="city_box" class="placeholder">Town or city</label>
+      </div>
+      <div class="input-container">
+        <input id="country_box" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="country_box" class="placeholder">Country</label>
+      </div>
+      <div class="input-container">
+        <input id="postcode_box" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="postcode_box" class="placeholder">Zip or postal code</label>
+      </div>
+      <div class="input-container">
+        <input id="phone_box" class="input" type="tel" placeholder=" " />
+        <div class="cut"></div>
+        <label for="phone_box" class="placeholder">Phone number (including area code)</label>
+      </div>
+      <div class="input-container">
+        <input id="email_box" class="input" type="email" placeholder=" " />
+        <div class="cut"></div>
+        <label for="email_box" class="placeholder">Email</label>
+      </div>
+      <div class="checkable-container">
+        <input id="teensy_check" type="checkbox" placeholder=" " />
+        <label class="checkable-div" for="teensy_check">Also quote for a Teensy 4.x</label>
+      </div>
 
-    <button type="text" class="submit">Submit</button>
+      <button type="text" class="submit">Submit</button>
   </div>
+</form>
