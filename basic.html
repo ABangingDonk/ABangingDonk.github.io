@@ -1,0 +1,73 @@
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mqkowqyk"
+  method="POST"
+>
+
+<style>
+    div {
+        width: 500px;
+    }
+</style>
+
+<div>
+    <h2>Ordering form</h2>
+    <p>
+        The board alone costs £20. This includes everything except the Teensy.
+    </p>
+    <p>
+        Enter your information here and I'll calculate shipping and get back to you.
+        If you want me to provide a Teensy module for you then that will come pre-programmed and ready to go.
+    </p>
+    <br>
+    <table border="0">
+        <tr>
+            <td><label for="name_box">Name:</label></td>
+            <td><input type="text" id="name_box" name="name_box" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="address_1_box">Address 1st line:</label></td>
+            <td><input type="text" id="address_1_box" name="address_1_box" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="address_2_box">Address 2nd line:</label></td>
+            <td><input type="text" id="address_2_box" name="address_2_box"></td>
+        </tr>
+        
+        <tr>
+            <td><label for="city_box">City:</label></td>
+            <td><input type="text" id="city_box" name="city_box" required></td>
+        </tr>
+        
+        <tr>
+            <td><label for="country_box">Country:</label></td>
+            <td><input type="text" id="country_box" name="country_box" required></td>
+        </tr>
+        
+        <tr>
+            <td><label for="postcode_box">Post/zip code:</label></td>
+            <td><input type="text" id="postcode_box" name="postcode_box" required></td>
+        </tr>
+        
+        <tr>
+            <td><label for="phone_box">Phone number (including area code):</label></td>
+            <td><input type="tel" id="phone_box" name="phone_box" required></td>
+        </tr>
+        
+        <tr>
+            <td><label for="email_box">Email address:</label></td>
+            <td><input type="email" id="email_box" name="email_box" required></td>
+        </tr>
+        
+        <tr>
+            <td><label for="teensy_check">Teensy 4.x required?</label></td>
+            <td><input type="checkbox" id="teensy_check" name="teensy_check"></td>
+        </tr>
+    </table>
+    <br>
+    <button type="submit">Send</button>
+</div>
+
+</form>
